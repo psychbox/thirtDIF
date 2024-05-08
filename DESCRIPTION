@@ -2,9 +2,13 @@ Package: thirtDIF
 Title: DIF Testing Implementation for thirt
 Version: 0.0.0.9000
 Authors@R: 
-    person("Maxwell", "Box", , "boxm.psy@outlook.com", role = c("aut", "cre"),
+    person("Maxwell", "Box", , "boxm.psy@outlook.com", role = c("cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: thirtDIF is an extension of thirt (Nguyen & Nydick, 2024), 
+expanding functionality for differential item functioning (DIF) in Thurstonian 
+Forced-Choice Item Response Theory (T-FCIRT) models. thirtDIF adapts Lee et al., 
+(2024)'s methodology for conducting DIF testing in T-IRT models. Functionality for 
+both statistical significance and practical effect testing of DIF is included. 
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
